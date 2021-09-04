@@ -1,0 +1,72 @@
+.outerContainer {
+  margin: 2em;
+  width: fit-content;
+  font-weight: bold;
+  display: inline-flex;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.decrement {
+  color: #ebcdcd;
+  height: 5em;
+  width: 5em;
+  max-height: 5em;
+  max-width: 5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.15em solid #b24242;
+  border-bottom: 0.15em solid #b24242;
+  border-top: 0.15em solid #b24242;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  cursor: pointer;
+}
+.counter {
+  background-color: #fbe8e8;
+  border: 0.15em solid #b24242;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  max-height: 5em;
+  max-width: 5em;
+}
+.counterInput {
+  background-color: transparent;
+  color: #b24242;
+  border: none;
+  outline: none;
+  width: 2em;
+  padding: 0px;
+  margin: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Avenir";
+}
+.increment {
+  color: white;
+  background-color: #b24242;
+  height: 5em;
+  width: 5em;
+  max-height: 5em;
+  max-width: 5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.15em solid #b24242;
+  border-bottom: 0.15em solid #b24242;
+  border-top: 0.15em solid #b24242;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  cursor: pointer;
+}
+.text {
+  font-size: 4em;
+  cursor: pointer;
+  font-family: "Avenir";
+}
